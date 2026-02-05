@@ -12,7 +12,7 @@ Esta guía explica:
 
 ---
 
-📥 1. Instalar Obsidian
+## 📥 1. Instalar Obsidian
 
 Obsidian es una aplicación gratuita para trabajar con notas en formato Markdown (.md).
 
@@ -26,7 +26,7 @@ Descarga la versión correspondiente a tu sistema operativo.
 
 ---
 
-## 🪟 Windows
+### 🪟 Windows
 
 1. Descarga el instalador .exe
 
@@ -38,7 +38,7 @@ Descarga la versión correspondiente a tu sistema operativo.
 
 ---
 
-## 🍎 macOS
+### 🍎 macOS
 
 1. Descarga el archivo .dmg
 
@@ -50,7 +50,7 @@ Descarga la versión correspondiente a tu sistema operativo.
 
 ---
 
-## 🐧 Linux
+### 🐧 Linux
 
 **Opción 1: AppImage**
 
@@ -73,69 +73,79 @@ sudo snap install obsidian --classic
 
 ℹ️ Obsidian trabaja directamente con archivos .md, no usa bases de datos ocultas.
 
-📂 2. Descargar un repositorio con archivos Markdown
+---
+
+## 📂 2. Descargar un repositorio con archivos Markdown
+
 ✅ Opción recomendada: usando Git
 
 En tu terminal:
 
+```bash
 git clone https://github.com/USUARIO/NOMBRE-REPOSITORIO.git
-
-
-Ejemplo:
-
-git clone https://github.com/bryan-velasco/SIGAFI-APP.git
-
+```
 
 Esto creará una carpeta con todos los archivos del proyecto.
 
+---
+
 📦 Opción alternativa: descargar ZIP
 
-En GitHub haz clic en Code → Download ZIP
+1. En GitHub haz clic en Code → Download ZIP
 
-Extrae el archivo comprimido
+2. Extrae el archivo comprimido
 
-Obtendrás una carpeta con los .md
+3. Obtendrás una carpeta con los .md
+
+---
 
 ⚠️ Es mejor usar git clone si piensas actualizar el proyecto después.
 
-📁 3. Crear un Vault en Obsidian
+---
 
-Un Vault es una carpeta donde Obsidian gestiona tus notas.
+## 📁 3. Crear un Vault en Obsidian
 
-Pasos:
+Un **Vault** es una carpeta donde Obsidian gestiona tus notas.
 
-Abre Obsidian
+**Pasos:**
 
-En la pantalla inicial selecciona:
+1. Abre Obsidian
 
-👉 Open folder as vault
+2. En la pantalla inicial selecciona: *Open folder as vault*
 
-Busca la carpeta descargada del repositorio
+3. Busca la carpeta descargada del repositorio
 
-Selecciónala
+4. Selecciónala
 
-Haz clic en Open
+5. Haz clic en **Open**
 
-🎉 ¡Listo! Esa carpeta ahora es tu Vault.
+🎉 ¡Listo! Esa carpeta ahora es tu **Vault**.
+
+---
 
 📌 Obsidian leerá automáticamente todos los archivos .md dentro.
 
-🔄 4. Cargar una carpeta existente (si ya usas Obsidian)
+---
 
-Ve a:
+## 🔄 4. Cargar una carpeta existente (si ya usas Obsidian)
 
-⚙️ Settings → Vault → Manage vaults
+1. Ve a:
 
-Selecciona:
+**⚙️ Settings → Vault → Manage vaults**
 
-➕ Open folder as vault
+2. Selecciona:
 
-Elige la carpeta del repositorio
+**➕ Open folder as vault**
 
-🧠 5. Estructura típica de un Vault
+3. Elige la carpeta del repositorio
+
+---
+
+## 🧠 5. Estructura típica de un Vault
 
 Ejemplo:
 
+```bash
 📁 Proyecto/
  ├─ README.md
  ├─ Ingeniería de Software.md
@@ -143,65 +153,78 @@ Ejemplo:
  ├─ Diseño.md
  ├─ Pruebas.md
  └─ Imágenes/
-
+```
 
 Obsidian mostrará todo en el panel izquierdo 📂
 
-🔗 6. Enlaces entre notas
+---
+
+## 🔗 6. Enlaces entre notas
 
 Dentro de cualquier archivo .md:
 
+```bash
 [[Nombre de la nota]]
-
+```
 
 Ejemplo:
 
+```bash
 La [[Modularidad]] es clave para el diseño.
-
+```
 
 👉 Al dar clic se abre esa nota o se crea automáticamente.
 
-🏷️ 7. Etiquetas (tags)
+---
+
+## 🏷️ 7. Etiquetas (tags)
 
 Ejemplo:
 
+```bash
 #ingenieria_software #diseño #calidad
-
+```
 
 Sirven para clasificar notas por temas.
 
-📊 8. Vista de grafo
+## 📊 8. Vista de grafo
 
 En Obsidian:
 
-🧭 Botón Graph View
+- 🧭 Botón **Graph View**
 
 Muestra:
 
-🔵 Cada nota como nodo
+- 🔵 Cada nota como nodo
 
-🔗 Cada enlace como conexión
+- 🔗 Cada enlace como conexión
+
+<img width="1107" height="950" alt="Image" src="https://github.com/user-attachments/assets/cf9a415d-1483-4280-9627-86db38a35bee" />
 
 Ideal para proyectos grandes.
 
+---
+
 💡 Recomendaciones finales
 
-✅ Usa enlaces [[ ]] para conectar conceptos
+- ✅ Usa enlaces [[ ]] para conectar conceptos
 
-✅ Usa carpetas para organizar módulos
+- ✅ Usa carpetas para organizar módulos
 
-✅ Usa etiquetas para temas generales
+- ✅ Usa etiquetas para temas generales
 
-✅ Usa checkboxes para seguimiento
+- ✅ Usa checkboxes para seguimiento
 
-🚀 Flujo típico de trabajo
+---
 
-Clonar repositorio
+## 🚀 Flujo típico de trabajo
 
-Abrir carpeta como Vault
+1. Clonar repositorio
 
-Editar archivos .md
+2. Abrir carpeta como Vault
 
-Conectar notas con [[enlaces]]
+3. Editar archivos .md
 
-Subir cambios a GitHub
+4. Conectar notas con [[enlaces]]
+
+5. Subir cambios a GitHub
