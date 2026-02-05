@@ -67,6 +67,7 @@ Opción 2: Snap
 ´´´
 sudo snap install obsidian --classic
 ´´´
+
 ---
 
 ℹ️ Obsidian trabaja directamente con archivos .md, no usa bases de datos ocultas.
