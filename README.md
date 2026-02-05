@@ -26,7 +26,7 @@ Descarga la versión correspondiente a tu sistema operativo.
 
 ---
 
-🪟 Windows
+## 🪟 Windows
 
 1. Descarga el instalador .exe
 
@@ -38,7 +38,7 @@ Descarga la versión correspondiente a tu sistema operativo.
 
 ---
 
-🍎 macOS
+## 🍎 macOS
 
 1. Descarga el archivo .dmg
 
@@ -50,23 +50,24 @@ Descarga la versión correspondiente a tu sistema operativo.
 
 ---
 
-🐧 Linux
+## 🐧 Linux
+
 **Opción 1: AppImage**
 
 1. Descarga el archivo .AppImage
 
 2. En la terminal ejecuta:
 
-´´´
+```bash
 chmod +x Obsidian.AppImage
 ./Obsidian.AppImage
-´´´
+```
 
-Opción 2: Snap
+**Opción 2: Snap**
 
-´´´
+```bash
 sudo snap install obsidian --classic
-´´´
+```
 
 ---
 
