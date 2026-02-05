@@ -2,20 +2,23 @@
 
 Esta guía explica:
 
-✅ Cómo instalar Obsidian en Windows, macOS y Linux
+- ✅ Cómo instalar Obsidian en Windows, macOS y Linux
 
-✅ Cómo descargar un repositorio con archivos .md
+- ✅ Cómo descargar un repositorio con archivos .md
 
-✅ Cómo crear un Vault en Obsidian
+- ✅ Cómo crear un Vault en Obsidian
 
-✅ Cómo cargar las notas descargadas
+- ✅ Cómo cargar las notas descargadas
+
+---
 
 📥 1. Instalar Obsidian
 
 Obsidian es una aplicación gratuita para trabajar con notas en formato Markdown (.md).
 
-🌐 Sitio oficial:
-👉 https://obsidian.md
+🌐 Sitio oficial: https://obsidian.md
+
+<img width="853" height="573" alt="Image" src="https://github.com/user-attachments/assets/84d28a51-fa9c-45fd-9b5c-1ea738c4a948" />
 
 Descarga la versión correspondiente a tu sistema operativo.
 
