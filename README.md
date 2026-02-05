@@ -3,8 +3,11 @@
 Esta guía explica:
 
 ✅ Cómo instalar Obsidian en Windows, macOS y Linux
+
 ✅ Cómo descargar un repositorio con archivos .md
+
 ✅ Cómo crear un Vault en Obsidian
+
 ✅ Cómo cargar las notas descargadas
 
 📥 1. Instalar Obsidian
@@ -14,7 +17,7 @@ Obsidian es una aplicación gratuita para trabajar con notas en formato Markdown
 🌐 Sitio oficial:
 👉 https://obsidian.md
 
-Descarga según tu sistema operativo.
+Descarga la versión correspondiente a tu sistema operativo.
 
 🪟 Windows
 
@@ -37,16 +40,16 @@ Arrastra Obsidian a la carpeta Applications
 Ejecuta Obsidian
 
 🐧 Linux
-Opción sencilla (AppImage):
+Opción 1: AppImage
 
 Descarga el archivo .AppImage
 
-En terminal:
+En la terminal ejecuta:
 
 chmod +x Obsidian.AppImage
 ./Obsidian.AppImage
 
-O con Snap:
+Opción 2: Snap
 sudo snap install obsidian --classic
 
 
@@ -79,7 +82,7 @@ Obtendrás una carpeta con los .md
 
 📁 3. Crear un Vault en Obsidian
 
-Un Vault es simplemente una carpeta donde Obsidian gestiona tus notas.
+Un Vault es una carpeta donde Obsidian gestiona tus notas.
 
 Pasos:
 
@@ -93,15 +96,13 @@ Busca la carpeta descargada del repositorio
 
 Selecciónala
 
-Clic en Open
+Haz clic en Open
 
-🎉 ¡Listo! Esa carpeta ahora es tu Vault
+🎉 ¡Listo! Esa carpeta ahora es tu Vault.
 
 📌 Obsidian leerá automáticamente todos los archivos .md dentro.
 
-🔄 4. Cargar una carpeta existente (si ya tienes Obsidian abierto)
-
-Si ya estás dentro de Obsidian:
+🔄 4. Cargar una carpeta existente (si ya usas Obsidian)
 
 Ve a:
 
@@ -115,7 +116,7 @@ Elige la carpeta del repositorio
 
 🧠 5. Estructura típica de un Vault
 
-Dentro del Vault puedes tener:
+Ejemplo:
 
 📁 Proyecto/
  ├─ README.md
@@ -128,9 +129,9 @@ Dentro del Vault puedes tener:
 
 Obsidian mostrará todo en el panel izquierdo 📂
 
-🔗 6. Cómo funcionan los enlaces entre notas
+🔗 6. Enlaces entre notas
 
-Dentro de cualquier archivo .md puedes usar:
+Dentro de cualquier archivo .md:
 
 [[Nombre de la nota]]
 
@@ -140,15 +141,18 @@ Ejemplo:
 La [[Modularidad]] es clave para el diseño.
 
 
-👉 Al dar clic se abre esa nota (o se crea si no existe).
+👉 Al dar clic se abre esa nota o se crea automáticamente.
 
-🏷️ 7. Uso de etiquetas (tags)
+🏷️ 7. Etiquetas (tags)
+
+Ejemplo:
+
 #ingenieria_software #diseño #calidad
 
 
-Sirven para clasificar notas y buscarlas fácilmente.
+Sirven para clasificar notas por temas.
 
-📊 8. Vista de grafo (opcional pero poderosa)
+📊 8. Vista de grafo
 
 En Obsidian:
 
@@ -157,23 +161,29 @@ En Obsidian:
 Muestra:
 
 🔵 Cada nota como nodo
+
 🔗 Cada enlace como conexión
 
-Ideal para proyectos grandes de ingeniería.
+Ideal para proyectos grandes.
 
 💡 Recomendaciones finales
 
 ✅ Usa enlaces [[ ]] para conectar conceptos
+
 ✅ Usa carpetas para organizar módulos
-✅ Usa tags para temas generales
-✅ Usa checkboxes para seguimiento de tareas
+
+✅ Usa etiquetas para temas generales
+
+✅ Usa checkboxes para seguimiento
 
 🚀 Flujo típico de trabajo
-1. Clonar repositorio
-2. Abrir carpeta como Vault
-3. Editar archivos .md
-4. Conectar notas con [[enlaces]]
-5. Guardar y subir cambios a GitHub
 
+Clonar repositorio
 
-Si quieres, el siguiente paso puede ser:
+Abrir carpeta como Vault
+
+Editar archivos .md
+
+Conectar notas con [[enlaces]]
+
+Subir cambios a GitHub
