@@ -22,39 +22,52 @@ Obsidian es una aplicación gratuita para trabajar con notas en formato Markdown
 
 Descarga la versión correspondiente a tu sistema operativo.
 
+<img width="412" height="487" alt="Image" src="https://github.com/user-attachments/assets/27002220-9f32-449f-b477-c8e4471421bc" />
+
+---
+
 🪟 Windows
 
-Descarga el instalador .exe
+1. Descarga el instalador .exe
 
-Ejecuta el archivo
+2. Ejecuta el archivo
 
-Sigue los pasos del instalador
+3. Sigue los pasos del instalador
 
-Abre Obsidian
+4. Abre Obsidian
+
+---
 
 🍎 macOS
 
-Descarga el archivo .dmg
+1. Descarga el archivo .dmg
 
-Ábrelo
+2. Ábrelo
 
-Arrastra Obsidian a la carpeta Applications
+3. Arrastra Obsidian a la carpeta Applications
 
-Ejecuta Obsidian
+4. Ejecuta Obsidian
+
+---
 
 🐧 Linux
-Opción 1: AppImage
+**Opción 1: AppImage**
 
-Descarga el archivo .AppImage
+1. Descarga el archivo .AppImage
 
-En la terminal ejecuta:
+2. En la terminal ejecuta:
 
+´´´
 chmod +x Obsidian.AppImage
 ./Obsidian.AppImage
+´´´
 
 Opción 2: Snap
-sudo snap install obsidian --classic
 
+´´´
+sudo snap install obsidian --classic
+´´´
+---
 
 ℹ️ Obsidian trabaja directamente con archivos .md, no usa bases de datos ocultas.
 
