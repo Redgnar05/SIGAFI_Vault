@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "a130453f9d03fb51",
+    "type": "split",
+    "children": [
+      {
+        "id": "0beab07ddcab0adb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8560ddd1604a6a7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "herramientas y recursos Obsidian/EjemploLinks/desarrollo-web.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "desarrollo-web"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf236760e821b102",
+    "type": "split",
+    "children": [
+      {
+        "id": "b76d4cfc4248e28a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbdd49f77e6253e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "95ee4b4adb4fae60",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "05caeb6bf737d6b3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa0a033fcaa9e3f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ace4421c18ed1cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42432a7d5682ac73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Bienvenido.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Bienvenido"
+            }
+          },
+          {
+            "id": "61c3c6188eb41c21",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bienvenido.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Bienvenido"
+            }
+          },
+          {
+            "id": "5b13da67c36f9edb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "efa48b5ab1ed0be3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "b3c67344c9caccca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bienvenido.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Bienvenido"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "8560ddd1604a6a7d",
+  "lastOpenFiles": [
+    "SIGAFI_Vault/img/ServicioSocial/Pasted image 20260126111728.png",
+    "SIGAFI_Vault/img/ServicioSocial/Pasted image 20260125194119.png",
+    "SIGAFI_Vault/img/ServicioSocial/Pasted image 20260123184543.png",
+    "SIGAFI_Vault/img/ServicioSocial",
+    "SIGAFI_Vault/herramientas y recursos Obsidian/Formato APA.md",
+    "SIGAFI_Vault/herramientas y recursos Obsidian/Enlaces y etiquetas.md",
+    "SIGAFI_Vault/herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
+    "SIGAFI_Vault/SIGAFI/Aplicación en PHP usando CodeIgniter.md",
+    "SIGAFI_Vault/Ingeniería de Software/Introducción a Ingeniería de Software.md",
+    "SIGAFI_Vault/img",
+    "SIGAFI_Vault/herramientas y recursos Obsidian",
+    "SIGAFI_Vault/SIGAFI",
+    "SIGAFI_Vault/Plan de Trabajo.md",
+    "SIGAFI_Vault/Ingeniería de Software",
+    "SIGAFI_Vault",
+    "README.md",
+    "herramientas y recursos Obsidian/Enlaces y etiquetas.md",
+    "herramientas y recursos Obsidian/EjemploLinks/linux.md",
+    "herramientas y recursos Obsidian/EjemploLinks/desarrollo-web.md",
+    "herramientas y recursos Obsidian/EjemploLinks/servidores.md",
+    "Plan de Trabajo.md",
+    "Modularidad.md",
+    "SIGAFI/Servidor SIGAFI",
+    "SIGAFI/Servidor SIGAFI.md",
+    "SIGAFI/Aplicación en PHP usando CodeIgniter.md",
+    "Mantenibilidad.md",
+    "Ingeniería de Software/Introducción a Ingeniería de Software.md",
+    "Ingeniería de Software",
+    "herramientas y recursos Obsidian/Formato APA.md",
+    "img/ServicioSocial/Pasted image 20260126111728.png",
+    "img/ServicioSocial/Pasted image 20260125194119.png",
+    "img/ServicioSocial/Pasted image 20260123184543.png",
+    "img/ServicioSocial",
+    "img",
+    "Bienvenido.md",
+    "herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
+    "cree un enlace.md"
+  ]
+}
