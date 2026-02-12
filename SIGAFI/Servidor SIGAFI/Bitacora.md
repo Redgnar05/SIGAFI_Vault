@@ -7,7 +7,7 @@
 
 ---
 
-## 🖥️ 1. Instalación del Sistema Operativo
+## 🖥️ 1. Instalación del Sistema Operativo ( #Ubuntu)
 
 Se realizó la instalación del sistema operativo **[Ubuntu](../../Ingeniería%20de%20Software/Apoyo_Teorico/Linux.md#-qué-es-ubuntu) 24.04.2 LTS** en el equipo asignado.
 
@@ -42,7 +42,7 @@ Se realizó la instalación del sistema operativo **[Ubuntu](../../Ingeniería%2
 
 ## 💻 2. Instalación de Visual Studio Code
 
-Se instaló el editor de código **Visual Studio Code** para el desarrollo y administración del proyecto.
+Se instaló el editor de código **[Visual Studio Code](../../Ingeniería%20de%20Software/Apoyo_Teorico/Programacion.md#qué-es-visuals-studio-code)** para el desarrollo y administración del proyecto.
 
 > [!info]  
 > VS Code permite:

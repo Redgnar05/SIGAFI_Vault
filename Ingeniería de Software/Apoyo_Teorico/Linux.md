@@ -1,7 +1,7 @@
 # 🐧 ¿Qué es Ubuntu?
 
 > [!abstract]  
-> **Ubuntu** es una distribución de Linux basada en Debian, ampliamente utilizada en entornos de desarrollo y servidores.
+> ** #Ubuntu** es una distribución de Linux basada en Debian, ampliamente utilizada en entornos de desarrollo y servidores.
 
 Se usa comúnmente en:
 
