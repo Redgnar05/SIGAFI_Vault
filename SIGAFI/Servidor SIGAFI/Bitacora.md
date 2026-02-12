@@ -9,7 +9,7 @@
 
 ## 🖥️ 1. Instalación del Sistema Operativo
 
-Se realizó la instalación del sistema operativo **Ubuntu 24.04.2 LTS** en el equipo asignado.
+Se realizó la instalación del sistema operativo **[Ubuntu](../../Ingeniería%20de%20Software/Apoyo_Teorico/Linux.md#-qué-es-ubuntu) 24.04.2 LTS** en el equipo asignado.
 
 > [!important]  
 > Se eligió esta versión por ser:
