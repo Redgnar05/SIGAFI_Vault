@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fa0a033fcaa9e3f4",
@@ -186,6 +185,10 @@
   },
   "active": "6a19ba5b628ade75",
   "lastOpenFiles": [
+    "Plan de Trabajo.md",
+    "SIGAFI_Vault/Plan de Trabajo.md",
+    "herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
+    "SIGAFI_Vault/herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
     "SIGAFI/Servidor SIGAFI/Bitacora.md",
     "SIGAFI/Aplicación en PHP usando CodeIgniter.md",
     "README.md",
@@ -199,19 +202,16 @@
     "SIGAFI_Vault/img/ServicioSocial",
     "SIGAFI_Vault/herramientas y recursos Obsidian/Formato APA.md",
     "SIGAFI_Vault/herramientas y recursos Obsidian/Enlaces y etiquetas.md",
-    "SIGAFI_Vault/herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
     "SIGAFI_Vault/SIGAFI/Aplicación en PHP usando CodeIgniter.md",
     "SIGAFI_Vault/Ingeniería de Software/Introducción a Ingeniería de Software.md",
     "SIGAFI_Vault/img",
     "SIGAFI_Vault/herramientas y recursos Obsidian",
     "SIGAFI_Vault/SIGAFI",
-    "SIGAFI_Vault/Plan de Trabajo.md",
     "SIGAFI_Vault/Ingeniería de Software",
     "SIGAFI_Vault",
     "herramientas y recursos Obsidian/Enlaces y etiquetas.md",
     "herramientas y recursos Obsidian/EjemploLinks/linux.md",
     "herramientas y recursos Obsidian/EjemploLinks/servidores.md",
-    "Plan de Trabajo.md",
     "Modularidad.md",
     "SIGAFI/Servidor SIGAFI",
     "SIGAFI/Servidor SIGAFI.md",
@@ -222,7 +222,6 @@
     "img/ServicioSocial",
     "img",
     "Bienvenido.md",
-    "herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
     "cree un enlace.md"
   ]
 }
