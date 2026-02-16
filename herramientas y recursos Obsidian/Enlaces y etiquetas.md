@@ -46,7 +46,7 @@ Se muestra así:
 
 > [!note] Enlazar a una sección específica
 
-`[[Ingeniería de Software#Modularidad]]`
+`[[Ingeniería de Software#Modularidad]]`: [[Ingeniería de Software#Modularidad]]
 
 👉 Te lleva directamente a ese subtítulo dentro del archivo.
 

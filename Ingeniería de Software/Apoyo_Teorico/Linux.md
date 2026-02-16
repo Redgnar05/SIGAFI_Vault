@@ -64,7 +64,7 @@ Significado del comando:
 
 ---
 
-# 🔐 ¿Qué hace el comando `chmod 755`?
+# Comando chmod 755
 
 En Linux, cada archivo tiene permisos numéricos basados en:
 

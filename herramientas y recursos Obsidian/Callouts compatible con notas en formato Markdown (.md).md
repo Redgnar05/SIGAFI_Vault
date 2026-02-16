@@ -1,5 +1,5 @@
 
-Para crear una llamada, añada `[!info]`a la primera línea de una cita en bloque, donde `info`es el _identificador de tipo_ . Este identifica el aspecto de la llamada.
+Para crear una llamada, añada `[!info]`a la primera línea de una cita en bloque, donde `info`es el _identificador de tipo_ . Este identifica el aspecto de la llamada.  
 
 Puedes usar varios tipos de llamadas y alias. Cada tipo tiene un color de fondo y un icono diferentes.
 

@@ -1,4 +1,4 @@
-# 📘 Guía completa para usar Obsidian con repositorios Markdown
+# 📘 Guía completa para usar Obsidian con repositorios, archivos con formato Markdown
 
 Esta guía explica:
 
@@ -86,6 +86,9 @@ git clone https://github.com/USUARIO/NOMBRE-REPOSITORIO.git
 ```
 
 Esto creará una carpeta con todos los archivos del proyecto.
+
+> [!warning] Nota importante
+> En Obsidian soló se pueden modificar archivos tipo markdown, si la carpeta seleccionada contiene otros formatos de documentos, no se podrán visualizar.  
 
 ---
 

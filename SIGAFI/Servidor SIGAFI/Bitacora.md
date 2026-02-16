@@ -59,9 +59,9 @@ Se instaló el editor de código **[Visual Studio Code](../../Ingeniería%20de%2
 
 ---
 
-## 🌐 3. Instalación de XAMPP
+## 🌐 3. Instalación de [XAMPP](../../Ingeniería%20de%20Software/Apoyo_Teorico/Servidores.md#qué-es-xampp)
 
-Se descargó **XAMPP versión 8.2.12** desde el sitio oficial:
+Se descargó  #XAMPP **versión 8.2.12** desde el sitio oficial:
 
 🔗 [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
 
@@ -69,7 +69,7 @@ Se descargó **XAMPP versión 8.2.12** desde el sitio oficial:
 
 ### ⚙️ Permisos de ejecución
 
-Se otorgaron permisos al archivo descargado mediante:
+Se [otorgaron permisos al archivo](../../Ingeniería%20de%20Software/Apoyo_Teorico/Linux.md#comando-chmod-755) descargado mediante:
 
 ```Bash
 sudo chmod 755 xampp
