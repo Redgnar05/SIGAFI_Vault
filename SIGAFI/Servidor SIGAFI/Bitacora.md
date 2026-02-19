@@ -1,7 +1,7 @@
 # 📘 Índice
 
-- [Día 1 - 30 de junio de 2025](#dia-1-30-de-junio-de-2025)
-- [Día 2 - 30 de septiembre de 2025](#dia-2-30-de-septiembre-de-2025)
+- [Día 1 - 30 de junio de 2025](#d%C3%ADa-1---30-de-junio-de-2025)
+- [Día 2 - 30 de septiembre de 2025](#d%C3%ADa-2---30-de-septiembre-de-2025)
 
 ---
 
