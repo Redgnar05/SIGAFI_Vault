@@ -1,7 +1,7 @@
 # 📘 Índice
 
 - [Ubuntu](#ubuntu)
-- [Permisos_de_ejecucion](#<u>permisos_de_ejecucion</u>)
+- [Permisos_de_ejecucion](#permisos_de_ejecucion)
 
 ---
 
@@ -71,7 +71,7 @@ Significado del comando:
 
 ---
 
-# <u>Permisos_de_ejecucion</u>
+# Permisos_de_ejecucion
 ## Comando chmod 755
 
 En Linux, cada archivo tiene permisos numéricos basados en:

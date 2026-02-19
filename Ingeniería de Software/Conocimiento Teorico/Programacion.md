@@ -1,12 +1,12 @@
 # 📘 Índice
 
-- [Visual Studio Code](#<u>visual_studio_code</u>])
+- [Visual Studio Code](#visual_studio_code])
 
 
 
 ---
 
-# <u>Visual_Studio_Code</u>
+# Visual_Studio_Code
 
 > [!abstract]  
 > **Visual Studio Code (VS Code)** es un editor de código fuente moderno y extensible.

@@ -1,11 +1,11 @@
 # 📘 Índice
 
-- [Primer día](#<u>primer_dia</u>)
-- [Segundo día](#<u>segundo_dia</u>)
+- [Primer día](#primer_dia)
+- [Segundo día](#segundo_dia)
 
 ---
 
-# <u>Primer_dia</u>
+# Primer_dia
 
 > [!abstract]  
 > **Fecha:** 30 de junio de 2025  
@@ -121,7 +121,7 @@ El entorno base de desarrollo quedó completamente configurado y listo para come
 
 ---
 
-# <u>Segundo_dia</u>
+# Segundo_dia
 
 > [!abstract]  
 > **Fecha:** 30 de septiembre de 2025  

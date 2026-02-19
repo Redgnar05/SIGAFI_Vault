@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingeniería de Software/Conocimiento Teorico/Programacion.md",
+                "file": "Ingeniería de Software/Conocimiento Teorico/Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Programacion"
+              "title": "Linux"
             }
           },
           {
@@ -211,8 +211,8 @@
   },
   "active": "348a27d3a2ac532b",
   "lastOpenFiles": [
-    "SIGAFI/Servidor SIGAFI/Bitacora.md",
     "Ingeniería de Software/Conocimiento Teorico/Programacion.md",
+    "SIGAFI/Servidor SIGAFI/Bitacora.md",
     "Ingeniería de Software/Conocimiento Teorico/Linux.md",
     "Ingeniería de Software/Conocimiento Teorico/Servidores.md",
     "herramientas y recursos Obsidian/Enlaces y etiquetas.md",
