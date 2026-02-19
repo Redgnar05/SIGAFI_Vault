@@ -1,4 +1,4 @@
-# 📅 Día 1 – 30 de junio de 2025
+# 📅 Día 1
 
 > [!abstract]  
 > **Fecha:** 30 de junio de 2025  
@@ -9,7 +9,7 @@
 
 ## 🖥️ 1. Instalación del Sistema Operativo ( #Ubuntu)
 
-Se realizó la instalación del sistema operativo **[Ubuntu](../../Ingeniería%20de%20Software/Apoyo_Teorico/Linux.md#-qué-es-ubuntu) 24.04.2 LTS** en el equipo asignado.
+Se realizó la instalación del sistema operativo **[Ubuntu](Linux.md#-qué-es-ubuntu) 24.04.2 LTS** en el equipo asignado.
 
 > [!important]  
 > Se eligió esta versión por ser:
@@ -42,7 +42,7 @@ Se realizó la instalación del sistema operativo **[Ubuntu](../../Ingeniería%2
 
 ## 💻 2. Instalación de Visual Studio Code
 
-Se instaló el editor de código **[Visual Studio Code](../../Ingeniería%20de%20Software/Apoyo_Teorico/Programacion.md#qué-es-visuals-studio-code)** para el desarrollo y administración del proyecto.
+Se instaló el editor de código **[Visual Studio Code](Programacion.md#qué-es-visuals-studio-code)** para el desarrollo y administración del proyecto.
 
 > [!info]  
 > VS Code permite:
@@ -59,7 +59,7 @@ Se instaló el editor de código **[Visual Studio Code](../../Ingeniería%20de%2
 
 ---
 
-## 🌐 3. Instalación de [XAMPP](../../Ingeniería%20de%20Software/Apoyo_Teorico/Servidores.md#qué-es-xampp)
+## 🌐 3. Instalación de [XAMPP](Servidores.md#qué-es-xampp)
 
 Se descargó  #XAMPP **versión 8.2.12** desde el sitio oficial:
 
@@ -69,7 +69,7 @@ Se descargó  #XAMPP **versión 8.2.12** desde el sitio oficial:
 
 ### ⚙️ Permisos de ejecución
 
-Se [otorgaron permisos al archivo](../../Ingeniería%20de%20Software/Apoyo_Teorico/Linux.md#comando-chmod-755) descargado mediante:
+Se [otorgaron permisos al archivo](Linux.md#comando-chmod-755) descargado mediante:
 
 ```Bash
 sudo chmod 755 xampp
@@ -89,23 +89,12 @@ Posteriormente, se ejecutó el instalador desde la terminal con privilegios de a
 
 ## 🔧 4. Instalación de GIT
 
-Se instaló el sistema de control de versiones **Git** mediante el siguiente comando:
+Se instaló el sistema de control de versiones [Git](Control%20de%20Versiones.md) mediante el siguiente comando:
 
 ```Bash
 sudo apt-get install git
 ```
 
-> [!tip]  
-> Git es fundamental para:
-> 
-> - Control de versiones
->     
-> - Trabajo colaborativo
->     
-> - Respaldo del código
->     
-> - Integración con GitHub/GitLab
->     
 
 ---
 
@@ -118,5 +107,20 @@ sudo apt-get install git
 > ✔️ Control de versiones habilitado
 
 El entorno base de desarrollo quedó completamente configurado y listo para comenzar el proyecto.
+
+---
+
+---
+
+---
+
+# 📅 Día 2 – 30 de septiembre de 2025
+
+> [!abstract]  
+> **Fecha:** 30 de septiembre de 2025  
+> **Responsable:** Leonardo Arroyo  
+> **Objetivo:** Preparación del entorno de desarrollo
+
+---
 
 
