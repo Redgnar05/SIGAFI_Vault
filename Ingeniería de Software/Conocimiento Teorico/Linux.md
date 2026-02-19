@@ -1,4 +1,11 @@
-# 🐧 ¿Qué es Ubuntu?
+# 📘 Índice
+
+- [Ubuntu](#ubuntu)
+- [Permisos_de_ejecucion](#<u>permisos_de_ejecucion</u>)
+
+---
+
+# Ubuntu
 
 > [!abstract]  
 > ** #Ubuntu** es una distribución de Linux basada en Debian, ampliamente utilizada en entornos de desarrollo y servidores.
@@ -64,7 +71,8 @@ Significado del comando:
 
 ---
 
-# Comando chmod 755
+# <u>Permisos_de_ejecucion</u>
+## Comando chmod 755
 
 En Linux, cada archivo tiene permisos numéricos basados en:
 

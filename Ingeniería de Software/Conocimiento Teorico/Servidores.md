@@ -1,4 +1,8 @@
-# 🌐 ¿Qué es XAMPP?
+
+- [XAMPP](#xampp)
+
+
+# XAMPP
 
 > [!abstract]  
 > **XAMPP** es un paquete que integra herramientas necesarias para desarrollo web local.

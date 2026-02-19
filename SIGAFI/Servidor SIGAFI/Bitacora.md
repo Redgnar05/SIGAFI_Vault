@@ -1,11 +1,11 @@
 # 📘 Índice
 
-- [Día 1 - 30 de junio de 2025](#d%C3%ADa-1---30-de-junio-de-2025)
-- [Día 2 - 30 de septiembre de 2025](#d%C3%ADa-2---30-de-septiembre-de-2025)
+- [Primer día](#<u>primer_dia</u>)
+- [Segundo día](#<u>segundo_dia</u>)
 
 ---
 
-# Día 1 - 30 de junio de 2025
+# <u>Primer_dia</u>
 
 > [!abstract]  
 > **Fecha:** 30 de junio de 2025  
@@ -49,7 +49,7 @@ Se realizó la instalación del sistema operativo **[Ubuntu](Linux.md#-qué-es-u
 
 ## 💻 2. Instalación de Visual Studio Code
 
-Se instaló el editor de código **[Visual Studio Code](Programacion.md#qué-es-visuals-studio-code)** para el desarrollo y administración del proyecto.
+Se instaló el editor de código **[Visual Studio Code](Programacion.md)** para el desarrollo y administración del proyecto.
 
 > [!info]  
 > VS Code permite:
@@ -121,7 +121,7 @@ El entorno base de desarrollo quedó completamente configurado y listo para come
 
 ---
 
-# Día 2 - 30 de septiembre de 2025
+# <u>Segundo_dia</u>
 
 > [!abstract]  
 > **Fecha:** 30 de septiembre de 2025  
