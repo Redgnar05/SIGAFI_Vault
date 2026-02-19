@@ -101,12 +101,30 @@ Significa:
 
 ---
 
-## 📚 Conocimientos necesarios
+### Variables de entorno
 
-- Instalación de sistemas operativos
+El  #PATH  es una variable del sistema que indica dónde buscar programas ejecutables.
+
+Cuando escribes:
+
+`php`
+
+Linux busca ese ejecutable dentro de las rutas definidas en PATH.
+
+Si PHP no está en PATH, habría que ejecutarlo así:
+
+`/opt/lampp/bin/php`
+
+Agregarlo al PATH simplifica el uso del sistema.
+
+### Conocimientos necesarios
+
+- Variables de entorno
     
-- Particionado básico de disco
+- Archivos `.bashrc` y shells de Linux
     
-- Conceptos de usuario y contraseña
-    
-- Uso básico de terminal    
+- Uso de terminal
+
+
+
+

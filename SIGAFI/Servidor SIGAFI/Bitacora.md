@@ -1,4 +1,11 @@
-# 📅 Día 1
+# 📘 Índice
+
+- [Día 1 - 30 de junio de 2025](#dia-1-30-de-junio-de-2025)
+- [Día 2 - 30 de septiembre de 2025](#dia-2-30-de-septiembre-de-2025)
+
+---
+
+# Día 1 - 30 de junio de 2025
 
 > [!abstract]  
 > **Fecha:** 30 de junio de 2025  
@@ -114,13 +121,37 @@ El entorno base de desarrollo quedó completamente configurado y listo para come
 
 ---
 
-# 📅 Día 2 – 30 de septiembre de 2025
+# Día 2 - 30 de septiembre de 2025
 
 > [!abstract]  
 > **Fecha:** 30 de septiembre de 2025  
 > **Responsable:** Leonardo Arroyo  
-> **Objetivo:** Preparación del entorno de desarrollo
+> **Objetivo:** Preparar y configurar el entorno de ejecución del aplicativo SIGAFI
 
 ---
 
+# 1. Inclusión de PHP en el PATH del sistema
+
+## 🔧 Actividad realizada
+
+Se configuró la [variable de entorno](../../Ingeniería%20de%20Software/Conocimiento%20Teorico/Linux.md) #PATH  para que el sistema operativo pudiera reconocer los ejecutables de PHP instalados dentro de XAMPP.
+
+
+
+
+```Bash
+export PATH="/opt/lampp/bin:$PATH" 
+source ~/.bashrc 
+# o source ~/.zshrc si se usa Zsh
+```
+
+Con esto, la terminal puede ejecutar comandos como:
+
+```Bash
+php 
+composer 
+mysql
+```
+
+sin escribir la ruta completa.
 
