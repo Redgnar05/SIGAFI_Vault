@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ingeniería de Software/Conocimiento Teorico/Linux.md",
+                "file": "herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "Callouts compatible con notas en formato Markdown (.md)"
             }
           },
           {
@@ -211,23 +211,25 @@
   },
   "active": "348a27d3a2ac532b",
   "lastOpenFiles": [
-    "Ingeniería de Software/Conocimiento Teorico/Programacion.md",
-    "SIGAFI/Servidor SIGAFI/Bitacora.md",
+    "herramientas y recursos Obsidian/Formato APA.md",
     "Ingeniería de Software/Conocimiento Teorico/Linux.md",
+    "SIGAFI/Servidor SIGAFI/Bitacora.md",
+    "Plan de Trabajo.md",
+    "SIGAFI/Aplicación en PHP usando CodeIgniter.md",
+    "Ingeniería de Software/Introducción a Ingeniería de Software.md",
+    "Ingeniería de Software/Conocimiento Teorico/Programacion.md",
     "Ingeniería de Software/Conocimiento Teorico/Servidores.md",
     "herramientas y recursos Obsidian/Enlaces y etiquetas.md",
     "Ingeniería de Software/Conocimiento Teorico/Control de Versiones.md",
     "Ingeniería de Software/Conocimiento Teorico/Bases de datos.md",
     "herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
     "README.md",
-    "Plan de Trabajo.md",
     "herramientas y recursos Obsidian/Sin título.md",
     "Ubuntu.md",
     "herramientas y recursos Obsidian/EjemploLinks/linux.md",
     "Ingeniería de Software/Conocimiento Teorico",
     "SIGAFI_Vault/Plan de Trabajo.md",
     "SIGAFI_Vault/herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
-    "SIGAFI/Aplicación en PHP usando CodeIgniter.md",
     "img/ServicioSocial/Pasted image 20260126111728.png",
     "img/ServicioSocial/Pasted image 20260125194119.png",
     "img/ServicioSocial/Pasted image 20260123184543.png",
@@ -249,8 +251,6 @@
     "Modularidad.md",
     "SIGAFI/Servidor SIGAFI",
     "SIGAFI/Servidor SIGAFI.md",
-    "Mantenibilidad.md",
-    "Ingeniería de Software/Introducción a Ingeniería de Software.md",
     "Ingeniería de Software",
     "img/ServicioSocial"
   ]
