@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fa0a033fcaa9e3f4",
@@ -201,9 +200,10 @@
   },
   "active": "db6122863266e67a",
   "lastOpenFiles": [
+    "SIGAFI/Servidor SIGAFI/Bitacora.md",
+    "SIGAFI/composer_json.md",
     "SIGAFI/app/Config/Routes_php.md",
     "Ingeniería de Software/Conocimiento Teorico/MVC.md",
-    "SIGAFI/composer_json.md",
     "Plan de Trabajo.md",
     "SIGAFI/app/Config",
     "Ingeniería de Software/Conocimiento Teorico/Framework.md",
@@ -216,7 +216,6 @@
     "herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
     "herramientas y recursos Obsidian/Formato APA.md",
     "Ingeniería de Software/Conocimiento Teorico/Linux.md",
-    "SIGAFI/Servidor SIGAFI/Bitacora.md",
     "SIGAFI/Aplicación en PHP usando CodeIgniter.md",
     "Ingeniería de Software/Conocimiento Teorico/Introducción a Ingeniería de Software.md",
     "Ingeniería de Software/Conocimiento Teorico/Programacion.md",

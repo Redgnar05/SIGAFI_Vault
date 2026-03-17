@@ -1,13 +1,13 @@
 
 # 📑 Índice
 
-- [📌 Identidad del Proyecto](#identidad-del-proyecto)
-- [⚙️ Requisitos de versión de PHP](#requisitos-de-versión-de-php)
-- [🧩 Framework utilizado](#framework-utilizado)
-- [📚 Librerías externas](#librerías-externas)
-- [🛠️ Dependencias de desarrollo](#dependencias-de-desarrollo)
-- [🔄 Sistema de Autoload](#sistema-de-autoload)
-- [📦 Configuración de Composer](#configuración-de-composer)
+- [📌 Identidad del Proyecto](#identidad_del_proyecto)
+- [⚙️ Requisitos de versión de PHP](#requisitos_de_versión_de_php)
+- [🧩 Framework utilizado](#framework_utilizado)
+- [📚 Librerías externas](#librerías_externas)
+- [🛠️ Dependencias de desarrollo](#dependencias_de_desarrollo)
+- [🔄 Sistema de Autoload](#sistema_de_autoload)
+- [📦 Configuración de Composer](#configuración_de_composer)
 
 El archivo `composer.json` es el archivo de configuración central del proyecto PHP que utiliza Composer, el gestor de dependencias estándar. Define qué librerías externas necesita este proyecto.
 
@@ -18,7 +18,7 @@ El archivo `composer.json` es el archivo de configuración central del proyecto 
 ---
 ---
 
-# Identidad del Proyecto
+# Identidad_del_Proyecto
 
 ```JSON
 "name": "codeigniter4/appstarter",
@@ -56,7 +56,7 @@ La aplicación fue creada utilizando la plantilla oficial "App Starter", que pro
 ---
 ---
 
-# Requisitos de versión de PHP
+# Requisitos_de_versión_de_PHP
 
 La aplicación requiere como mínimo la versión **8.1 de PHP** para su correcto funcionamiento. Esta dependencia está definida en el archivo `composer.json` mediante la siguiente configuración:
 
@@ -72,7 +72,7 @@ El uso de **PHP 8.1 o superior** permite aprovechar mejoras en el lenguaje, opti
 ---
 ---
 
-# Framework utilizado
+# Framework_utilizado
 
 La aplicación está desarrollada utilizando el framework **CodeIgniter 4**, el cual proporciona la estructura base para el desarrollo de aplicaciones web en PHP y sigue el patrón arquitectónico **Modelo-Vista-Controlador (MVC)**.
 
@@ -92,7 +92,7 @@ La versión especificada indica que el proyecto utiliza **exactamente la versió
 ---
 ---
 
-# Librerías externas
+# Librerías_externas
 
 ### Generación de documentos PDF
 
@@ -110,7 +110,7 @@ El operador `^` indica que la aplicación es compatible con la **versión 3.1 o 
 ---
 ---
 
-# Dependencias de desarrollo
+# Dependencias_de_desarrollo
 
 El proyecto incluye un conjunto de dependencias destinadas exclusivamente al **entorno de desarrollo**, definidas en la sección `require-dev` del archivo `composer.json`. Estas librerías se utilizan para facilitar tareas como **generación de datos de prueba, depuración del código y ejecución de pruebas automatizadas**.
 
@@ -165,7 +165,7 @@ composer test
 ---
 ---
 
-# Sistema de Autoload
+# Sistema_de_Autoload
 
 La aplicación utiliza el mecanismo de **autoloading** definido por el estándar **PSR-4**, el cual permite cargar automáticamente las clases del proyecto sin necesidad de incluir manualmente archivos mediante instrucciones como `require` o `include`.
 
@@ -190,7 +190,7 @@ De acuerdo con esta configuración, el proyecto establece un mapeo entre **names
 ---
 ---
 
-# Configuración de Composer
+# Configuración_de_Composer
 
 El archivo `composer.json` incluye la sección de configuración que define el comportamiento del gestor de dependencias **Composer** durante la instalación y administración de los paquetes utilizados por el proyecto.
 
