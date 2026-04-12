@@ -1,13 +1,14 @@
+# composer.json
 
-# 📑 Índice
+# Índice
 
-- [📌 Identidad del Proyecto](#identidad_del_proyecto)
-- [⚙️ Requisitos de versión de PHP](#requisitos_de_versión_de_php)
-- [🧩 Framework utilizado](#framework_utilizado)
-- [📚 Librerías externas](#librerías_externas)
-- [🛠️ Dependencias de desarrollo](#dependencias_de_desarrollo)
-- [🔄 Sistema de Autoload](#sistema_de_autoload)
-- [📦 Configuración de Composer](#configuración_de_composer)
+- [Identidad del Proyecto](#identidad_del_proyecto)
+- [Requisitos de versión de PHP](#requisitos_de_versión_de_php)
+- [Framework utilizado](#framework_utilizado)
+- [Librerías externas](#librerías_externas)
+- [Dependencias de desarrollo](#dependencias_de_desarrollo)
+- [Sistema de Autoload](#sistema_de_autoload)
+- [Configuración de Composer](#configuración_de_composer)
 
 El archivo `composer.json` es el archivo de configuración central del proyecto PHP que utiliza Composer, el gestor de dependencias estándar. Define qué librerías externas necesita este proyecto.
 

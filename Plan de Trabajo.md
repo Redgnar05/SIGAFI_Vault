@@ -38,10 +38,10 @@
 > 	- [x] Versión PHP requerida
 > 	- [x]  Framework exacto
 > 	- [x]  Librerías externas
-> - [ ]  Entrar a app/Config/Routes.php
-> 	- [ ]  Qué URLs existen
-> 	- [ ]  Qué controladores se usan 
-> 	- [ ]  Cómo se navega el sistema 
+> - [x]  Entrar a app/Config/Routes.php
+> 	- [x]  Qué URLs existen
+> 	- [x]  Qué controladores se usan 
+> 	- [x]  Cómo se navega el sistema 
 > - [ ]  Analizar Controllers 
 > 	- [ ]  app/Controllers/
 > 		- [ ]  Módulos del sistema 

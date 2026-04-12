@@ -1,0 +1,23 @@
+- **Base**
+    - [ ] BaseController.php
+    - [ ] HashingPasswordController.php
+- **Acceso al sistema**
+    - [ ] Login
+    - [ ] UpdatePassword
+    - [ ] HomeController.php
+- **Usuarios y roles**
+    - [ ] Usuarios
+    - [ ] Profile
+    - [ ] DatosPersonales
+    - [ ] AreaRoleAssigner
+- **Core del sistema**
+    - [ ] InventarioGeneral
+    - [ ] CortesParciales
+    - [ ] DescargaOficios
+- **Soporte**
+    - [ ] Notifications
+    - [ ] HistorialAcceso
+    - [ ] Contact
+- **Auxiliares**
+    - [ ] CodeSearch
+    - [ ] ChangeControl

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIGAFI/composer_json.md",
+                "file": "SIGAFI/app/Controller/BaseController_php.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "composer_json"
+              "title": "BaseController_php"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "fa0a033fcaa9e3f4",
@@ -200,11 +200,15 @@
   },
   "active": "db6122863266e67a",
   "lastOpenFiles": [
-    "SIGAFI/Servidor SIGAFI/Bitacora.md",
-    "SIGAFI/composer_json.md",
-    "SIGAFI/app/Config/Routes_php.md",
-    "Ingeniería de Software/Conocimiento Teorico/MVC.md",
+    "SIGAFI/app/Controller/Orden de Documentación.md",
+    "SIGAFI/app/Controller/BaseController_php.md",
     "Plan de Trabajo.md",
+    "SIGAFI/app/Config/Routes_php.md",
+    "SIGAFI/app/Controller",
+    "SIGAFI/composer_json.md",
+    "README.md",
+    "SIGAFI/Servidor SIGAFI/Bitacora.md",
+    "Ingeniería de Software/Conocimiento Teorico/MVC.md",
     "SIGAFI/app/Config",
     "Ingeniería de Software/Conocimiento Teorico/Framework.md",
     "Ingeniería de Software/Dependencias y Entorno.md",
@@ -212,7 +216,6 @@
     "SIGAFI/tests",
     "SIGAFI/public",
     "SIGAFI/app",
-    "README.md",
     "herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
     "herramientas y recursos Obsidian/Formato APA.md",
     "Ingeniería de Software/Conocimiento Teorico/Linux.md",
@@ -237,9 +240,7 @@
     "SIGAFI_Vault/img/ServicioSocial/Pasted image 20260125194119.png",
     "SIGAFI_Vault/img/ServicioSocial/Pasted image 20260123184543.png",
     "SIGAFI_Vault/img/ServicioSocial",
-    "SIGAFI_Vault/herramientas y recursos Obsidian/Formato APA.md",
     "SIGAFI_Vault/img",
-    "SIGAFI_Vault/herramientas y recursos Obsidian",
-    "SIGAFI_Vault/SIGAFI"
+    "SIGAFI_Vault/herramientas y recursos Obsidian"
   ]
 }
