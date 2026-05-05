@@ -1,52 +1,145 @@
 
-# **BaseController.php**
+## Descripción de `BaseController.php`
 
-El archivo `BaseController.php`, ubicado en el espacio de nombres `App\Controllers`, define una clase abstracta que extiende de `CodeIgniter\Controller` y constituye la base estructural de todos los controladores del sistema SIGAFI-APP. Su finalidad es centralizar la configuración inicial, la carga de servicios y la implementación de funciones comunes, permitiendo que los controladores derivados mantengan una estructura homogénea y reutilizable dentro de la aplicación.
+El archivo `BaseController.php` define una **clase base abstracta** que es utilizada por todos los controladores del sistema SIGAFI-APP. Su función principal es **centralizar configuraciones y lógica común**, permitiendo que los demás controladores hereden estas funcionalidades sin necesidad de reimplementarlas.
 
-> [!abstract] Resumen  
-> SIGAFI es un sistema de gestión institucional.
+Entre sus responsabilidades principales se encuentran:
 
-> [!info] Información  
-> SIGAFI está desarrollado con CodeIgniter y PHP.
+- Inicializar servicios globales como la sesión
+- Proveer métodos reutilizables (sanitización de datos, validación de sesión)
+- Estandarizar la información enviada a las vistas
+- Facilitar el mantenimiento y la escalabilidad del sistema
 
-Desde el punto de vista arquitectónico, este controlador es fundamental, ya que establece los elementos base que serán utilizados en todo el sistema. Entre sus atributos principales se encuentra `$request`, que representa la solicitud HTTP actual, permitiendo acceder a los datos enviados por el cliente. Asimismo, el arreglo `$helpers` define los helpers que se cargarán automáticamente, facilitando el uso de funciones auxiliares en los controladores hijos. Por otro lado, la propiedad `$session` permite gestionar la sesión del usuario, lo cual es esencial para mantener información persistente entre peticiones.
+---
 
-> [!important] Importante  
-> La carpeta app/ contiene toda la lógica principal.
+## Documentación técnica del código
 
-> ⚠️ **Callout importante:**  
-> La gestión de sesiones mediante `$session` es esencial para mantener el estado del usuario, incluyendo autenticación, roles y permisos dentro del sistema.
+### Definición de la clase
 
-El método `initController` se ejecuta automáticamente en cada solicitud y tiene como objetivo inicializar el controlador base. En su implementación, primero se invoca el método del padre (`parent::initController`) para asegurar la correcta configuración del framework, y posteriormente se inicializa el servicio de sesión mediante `\Config\Services::session()`. Este comportamiento permite que todos los controladores que hereden de esta clase tengan acceso inmediato a la sesión del usuario.
+```
+abstract class BaseController extends Controller
+```
 
-> ⚠️ **Callout importante:**  
-> Este método actúa como un mecanismo similar a un _middleware global_, ejecutándose antes de cualquier lógica en los controladores derivados.
+La clase es abstracta, lo que implica que no puede ser instanciada directamente. Está diseñada para ser heredada por otros controladores, asegurando que todos compartan una base común de comportamiento.
 
-En relación con la seguridad de los datos, el método `sanitizeInput` permite limpiar variables recibidas mediante el método POST. Este proceso se realiza aplicando el filtro `FILTER_SANITIZE_SPECIAL_CHARS`, con el objetivo de eliminar caracteres potencialmente peligrosos y devolver un arreglo con datos seguros para su uso posterior.
+---
 
-> [!danger] Riesgo  
-> Mala configuración puede causar fallos de seguridad.
+### Propiedades principales
 
-> ⚠️ **Callout importante (SEGURIDAD):**  
-> La sanitización de datos ayuda a prevenir ataques como Cross-Site Scripting (XSS), protegiendo la integridad del sistema.
+```
+protected $request;
+```
 
-Por otro lado, el método `GetIndexViewData` se encarga de preparar la información necesaria para las vistas, especialmente en métodos tipo `index`. Este método recibe el título de la página y construye un arreglo base con dicha información. Posteriormente, verifica si el usuario está autenticado mediante el método `IsUserLogged`. Si no lo está, se establece la variable `isLogged` como falsa y se registra un mensaje en el sistema de logs; en caso contrario, se agregan datos relevantes de la sesión, como el identificador del usuario, el tipo de usuario y la información del perfil.
+Almacena la instancia de la solicitud HTTP o CLI. Permite acceder a datos enviados por el cliente, como parámetros GET o POST.
 
-> ⚠️ **Callout importante:**  
-> Este método centraliza la información enviada a las vistas, evitando duplicidad de código y asegurando consistencia en la interfaz del sistema.
+```
+protected $helpers = [];
+```
 
-El método `IsUserLogged` permite verificar si existe una sesión activa, evaluando la presencia del identificador del usuario en la sesión. Retorna un valor booleano que indica si el usuario se encuentra autenticado, siendo un componente clave para el control de acceso dentro del sistema.
+Define un arreglo de helpers que se cargarán automáticamente en todos los controladores que extiendan esta clase.
 
-> ⚠️ **Callout importante (SEGURIDAD):**  
-> Este método es esencial para restringir funcionalidades únicamente a usuarios autenticados.
+```
+protected $session;
+```
 
-En conjunto, el `BaseController` establece una base sólida para la arquitectura de SIGAFI-APP, proporcionando mecanismos fundamentales como la gestión de sesiones, la sanitización de entradas, la validación de autenticación y la estandarización de datos para vistas. Su correcta implementación garantiza consistencia, seguridad y mantenibilidad en el desarrollo del sistema.
+Contiene la instancia del servicio de sesión. Se declara explícitamente para cumplir con las restricciones de PHP 8.2 y evitar propiedades dinámicas.
 
-> [!warning] ⚠️ Advertencia  
-> No modifiques public/index.php sin respaldo.
+---
 
-> 🚨 **Callout final (MUY IMPORTANTE):**  
-> Una implementación incorrecta o modificaciones en este controlador pueden provocar errores globales, pérdida de sesiones o vulnerabilidades de seguridad en todo el sistema.
+### Inicialización del controlador
+
+```
+public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
+```
+
+Este método se ejecuta automáticamente al crear una instancia de cualquier controlador que herede de `BaseController`.
+
+```
+parent::initController($request, $response, $logger);$this->session = \Config\Services::session();
+```
+
+Primero se llama al método padre para mantener el flujo interno del framework. Posteriormente, se inicializa el servicio de sesión, dejándolo disponible para toda la aplicación.
+
+> [!important]  
+> Este método es el punto ideal para cargar servicios globales como sesiones, modelos o librerías compartidas.
+
+---
+
+### Método `sanitizeInput()`
+
+```
+public function sanitizeInput($varNames)
+```
+
+Este método recibe un arreglo con nombres de variables provenientes de una petición POST y devuelve sus valores sanitizados.
+
+```
+foreach ($varNames as $varName) {    $sanitizedData[$varName] = filter_input(INPUT_POST, $varName, FILTER_SANITIZE_SPECIAL_CHARS);}
+```
+
+Se utiliza `filter_input` con `FILTER_SANITIZE_SPECIAL_CHARS` para evitar la ejecución de código malicioso, especialmente ataques XSS.
+
+```
+return $sanitizedData;
+```
+
+Devuelve un arreglo con los datos limpios.
+
+> [!warning]  
+> La sanitización de entradas es fundamental para prevenir vulnerabilidades de seguridad en aplicaciones web.
+
+---
+
+### Método `GetIndexViewData()`
+
+```
+protected function GetIndexViewData(string $title): array
+```
+
+Este método construye un arreglo con datos que serán enviados a las vistas, principalmente en el método `index` de los controladores.
+
+```
+$viewData = ['title' => $title];
+```
+
+Se inicializa el arreglo con el título de la página.
+
+```
+if (!$this->IsUserLogged()) {    $viewData['isLogged'] = false;    log_message('info', 'User is not logged in.');    return $viewData;}
+```
+
+Si el usuario no está autenticado:
+
+- Se marca como no logueado
+- Se registra un mensaje en el log
+- Se retorna el arreglo sin más datos
+
+```
+$viewData['isLogged'] = true;$viewData['ID_Usuario'] = session()->get('ID_Usuario');$viewData['ID_CatTipoUsuario'] = session()->get('ID_CatTipoUsuario');$viewData['Nombre_TipoUsuario'] = session()->get('Nombre_TipoUsuario');$viewData['Nombre_Perfil'] = session()->get('Nombre_Perfil');
+```
+
+Si el usuario está autenticado, se agregan datos relevantes de la sesión.
+
+Este enfoque permite que todas las vistas tengan acceso a información del usuario sin repetir código en cada controlador.
+
+---
+
+### Método `IsUserLogged()`
+
+```
+protected function IsUserLogged(): bool
+```
+
+Verifica si existe una sesión activa en el sistema.
+
+```
+return (bool)Session()->get('ID_Usuario');
+```
+
+Retorna `true` si el identificador del usuario está presente en la sesión, o `false` en caso contrario.
+
+> [!important]  
+> Este método encapsula la lógica de autenticación, facilitando su reutilización y mantenimiento.
 
 ---
 
