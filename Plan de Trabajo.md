@@ -44,7 +44,7 @@
 > 	- [x]  Cómo se navega el sistema 
 > - [ ]  Analizar Controllers 
 > 	- [ ]  app/Controllers/
-> 		- [ ]  Módulos del sistema 
+> 		- [x]  Módulos del sistema 
 > 		- [ ]  Funcionalidades principales
 > - [ ]  Models
 > 	- [ ]  app/Models

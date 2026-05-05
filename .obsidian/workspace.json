@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIGAFI/app/Controller/BaseController_php.md",
+                "file": "Plan de Trabajo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BaseController_php"
+              "title": "Plan de Trabajo"
             }
           }
         ],
@@ -200,14 +200,14 @@
   },
   "active": "db6122863266e67a",
   "lastOpenFiles": [
-    "SIGAFI/app/Controller/Orden de Documentación.md",
     "SIGAFI/app/Controller/BaseController_php.md",
-    "Plan de Trabajo.md",
+    "SIGAFI/app/Controller/Orden de Documentación.md",
     "SIGAFI/app/Config/Routes_php.md",
-    "SIGAFI/app/Controller",
-    "SIGAFI/composer_json.md",
-    "README.md",
     "SIGAFI/Servidor SIGAFI/Bitacora.md",
+    "SIGAFI/composer_json.md",
+    "Plan de Trabajo.md",
+    "SIGAFI/app/Controller",
+    "README.md",
     "Ingeniería de Software/Conocimiento Teorico/MVC.md",
     "SIGAFI/app/Config",
     "Ingeniería de Software/Conocimiento Teorico/Framework.md",
