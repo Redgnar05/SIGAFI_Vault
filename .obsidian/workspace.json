@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIGAFI/app/Controller/BaseController_php.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BaseController_php"
+              "title": "README"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 286.51103591918945
   },
   "right": {
     "id": "fa0a033fcaa9e3f4",
@@ -201,16 +200,18 @@
   },
   "active": "db6122863266e67a",
   "lastOpenFiles": [
+    "SIGAFI.md",
+    "README.md",
+    "Instalación de Obsidian.md",
+    "Plan de Trabajo.md",
+    "SIGAFI/app/Controller/BaseController_php.md",
     "SIGAFI/app/Controller/Orden de Documentación.md",
     "Ingeniería de Software/Dependencias y Entorno.md",
     "Ingeniería de Software/Conocimiento Teorico/Introducción a Ingeniería de Software.md",
-    "SIGAFI/app/Controller/BaseController_php.md",
-    "Plan de Trabajo.md",
     "SIGAFI/app/Config/Routes_php.md",
-    "SIGAFI/Servidor SIGAFI/Bitacora.md",
+    "ServidorSIGAFI/Bitacora.md",
     "SIGAFI/composer_json.md",
     "SIGAFI/app/Controller",
-    "README.md",
     "Ingeniería de Software/Conocimiento Teorico/MVC.md",
     "SIGAFI/app/Config",
     "Ingeniería de Software/Conocimiento Teorico/Framework.md",
@@ -232,11 +233,9 @@
     "herramientas y recursos Obsidian/EjemploLinks/linux.md",
     "Ingeniería de Software/Conocimiento Teorico",
     "SIGAFI_Vault/Plan de Trabajo.md",
-    "SIGAFI_Vault/herramientas y recursos Obsidian/Callouts compatible con notas en formato Markdown (.md).md",
     "img/ServicioSocial/Pasted image 20260126111728.png",
     "img/ServicioSocial/Pasted image 20260125194119.png",
     "img/ServicioSocial/Pasted image 20260123184543.png",
-    "herramientas y recursos Obsidian/EjemploLinks/desarrollo-web.md",
     "SIGAFI_Vault/img/ServicioSocial/Pasted image 20260126111728.png",
     "SIGAFI_Vault/img/ServicioSocial/Pasted image 20260125194119.png",
     "SIGAFI_Vault/img/ServicioSocial/Pasted image 20260123184543.png",
