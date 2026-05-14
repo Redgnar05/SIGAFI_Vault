@@ -1,0 +1,1 @@
+Una clase abstracta en PHP es un modelo base que no se puede instanciar directamente, sirviendo exclusivamente para definir una estructura común (métodos y propiedades) que sus clases hijas deben implementar. Actúa como una plantilla forzando a las subclases a definir comportamientos específicos, mejorando la organización y reutilización de código

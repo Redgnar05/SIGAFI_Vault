@@ -16,7 +16,7 @@
 
 # 📁 Servidor SIGAFI
 
-- [Bitacora](ServidorSIGAFI)
+- [Bitacora](ServidorSIGAFI/Bitacora.md)
 
 
 

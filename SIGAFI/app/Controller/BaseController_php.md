@@ -20,7 +20,7 @@ Entre sus responsabilidades principales se encuentran:
 abstract class BaseController extends Controller
 ```
 
-La clase es abstracta, lo que implica que no puede ser instanciada directamente. Está diseñada para ser heredada por otros controladores, asegurando que todos compartan una base común de comportamiento.
+La [[clase es abstracta]], lo que implica que no puede ser instanciada directamente. Está diseñada para ser heredada por otros controladores, asegurando que todos compartan una base común de comportamiento.
 
 ---
 

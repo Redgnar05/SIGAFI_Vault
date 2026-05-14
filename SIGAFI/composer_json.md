@@ -16,8 +16,6 @@ El archivo `composer.json` es el archivo de configuración central del proyecto 
 > **Composer** es el administrador de dependencias estándar para PHP, esencial para gestionar bibliotecas de terceros. Permite declarar, instalar y actualizar automáticamente las librerías necesarias, descargando las dependencias recursivas y facilitando la carga automática de clases (autoloading), similar a npm en Node.js.
 
 ---
----
----
 
 # Identidad_del_Proyecto
 
@@ -54,8 +52,6 @@ La aplicación fue creada utilizando la plantilla oficial "App Starter", que pro
 ```
 
 ---
----
----
 
 # Requisitos_de_versión_de_PHP
 
@@ -69,8 +65,6 @@ El operador `^` indica que el sistema es compatible con la versión **8.1 de PHP
 
 El uso de **PHP 8.1 o superior** permite aprovechar mejoras en el lenguaje, optimizaciones de rendimiento y características modernas que son utilizadas por el framework CodeIgniter 4 sobre el cual está construida la aplicación.
 
----
----
 ---
 
 # Framework_utilizado
@@ -90,8 +84,6 @@ La versión especificada indica que el proyecto utiliza **exactamente la versió
 > Esta estructura permite organizar el código de la aplicación de forma modular, facilitando su mantenimiento, escalabilidad y desarrollo.
 
 ---
----
----
 
 # Librerías_externas
 
@@ -107,8 +99,6 @@ La dependencia se encuentra declarada en el archivo `composer.json` de la siguie
 
 El operador `^` indica que la aplicación es compatible con la **versión 3.1 o superior**, siempre que las actualizaciones pertenezcan a la misma versión mayor y mantengan compatibilidad con la interfaz de la librería.
 
----
----
 ---
 
 # Dependencias_de_desarrollo
@@ -163,8 +153,6 @@ composer test
 ```
 
 ---
----
----
 
 # Sistema_de_Autoload
 
@@ -187,8 +175,6 @@ De acuerdo con esta configuración, el proyecto establece un mapeo entre **names
     
 - El **namespace `Config`** se encuentra asociado al directorio `app/Config/`, el cual contiene los archivos de configuración utilizados por la aplicación, tales como configuraciones del sistema, rutas, base de datos y otros parámetros necesarios para su funcionamiento.
 
----
----
 ---
 
 # Configuración_de_Composer
