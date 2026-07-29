@@ -52,14 +52,6 @@ vw_Division_Actual
 vw_AreaProductora_Actual
 ```
 
-
-==Hay dos tablas que no se logran ver en el diagrama:==
-
-```
-SIGAFI_CatConjuntoUsuario
-SIGAFI_CatTextosProhibidos
-```
-
 ---
 ---
 

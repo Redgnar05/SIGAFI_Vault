@@ -1,13 +1,13 @@
 
 ---
 
-- [x]  Catálogos ACA correcto
-- [x] Áreas correcto
-- [x] Usuarios correcto
-- [x] Inventario correcto
-- [ ] Revisión correcto
-- [ ] Histórico correcto
-- [ ] Tablas aisladas correcto
+- [x]  Catálogos ACA 
+- [x] Áreas
+- [x] Usuarios
+- [x] Inventario
+- [ ] Revisión
+- [ ] Histórico
+- [ ] Tablas aisladas
 
 ---
 
